@@ -1,0 +1,2 @@
+target=Target frame for login form,10,-Same window,_top-Top level window,_new-New window,Other
+hostname=Hostname to use for login,1,0-Domain name,1-Host system hostname
