@@ -17,15 +17,28 @@ $in{'pass'} =~ /\S/ || &error_redirect($text{'login_epass'});
 @matches = &find_vm2_server($in{'user'}, $in{'pass'});
 @matches || &error_redirect($text{'login_efind'});
 
-# Redirect the user to the correct machine
+# Is the server up?
 ($s, $d) = @{$matches[0]};
 if ($s->{'status'} eq 'down' || $s->{'status'} eq 'nossh' ||
     $s->{'status'} eq 'nowebmin' || $s->{'status'} eq 'downwebmin') {
 	&error_redirect($text{'login_edown'});
 	}
+
+# Does the login work?
 &get_miniserv_config(\%miniserv);
 $host = !$config{'hostname'} ? $d->{'dom'} :
 	!$s->{'host'} ? &get_system_hostname() : $s->{'host'};
+&http_download($host, $s->{'port'} || $miniserv{'port'}, "/", \$out, \$err,
+	       undef, $s->{'ssl'}, $d->{'user'}, $in{'pass'});
+if ($err =~ /401/) {
+	&error_redirect($text{'login_ewrong'});
+	}
+elsif ($err) {
+	&error_redirect(&text('login_econnect',
+		$host, $s->{'port'} || $miniserv{'port'}));
+	}
+
+# Redirect the user to the correct machine
 $url = ($s->{'ssl'} ? "https://" : "http://").
        $host.
        ":".($s->{'port'} || $miniserv{'port'}).

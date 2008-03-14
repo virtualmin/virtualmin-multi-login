@@ -1,0 +1,13 @@
+index_title=Virtualmin Login
+index_header=Virtualmin login details
+index_user=Username or domain
+index_pass=Password
+index_ok=Login
+
+login_euser=No Virtualmin username or domain name entered
+login_euser2=The username or domain name cannot contain spaces
+login_epass=No Virtualmin password entered
+login_efind=No Virtualmin user or domain was found
+login_edown=The Virtualmin system on which your domain is hosted is down
+login_ewrong=Your username or password is incorrect
+login_econnect=The Virtualmin system $1:$2 on which your domain is hosted could not be contacted

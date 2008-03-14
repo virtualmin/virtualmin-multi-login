@@ -1,5 +1,4 @@
 # Login functions
-# XXX anonymous access
 
 do '../web-lib.pl';
 &init_config();
