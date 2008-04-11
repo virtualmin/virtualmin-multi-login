@@ -2,3 +2,4 @@ desc=Virtualmin Login Redirector
 depends=server-manager
 category=webmin
 version=1.0
+depends=1.411
