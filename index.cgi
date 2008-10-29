@@ -11,7 +11,7 @@ if ($in{'err'}) {
 	      &html_escape($in{'err'}),"</font></b><p>\n";
 	}
 print &ui_form_start("login.cgi", "post", $config{'target'});
-print &ui_table_start($text{'index_header'}, "width=50% style='width:50%'", 2);
+print &ui_table_start($text{'index_header'}, undef, 2);
 
 # Username or domain
 print &ui_table_row($text{'index_user'},
