@@ -1,8 +1,12 @@
 # Login functions
 
-do '../web-lib.pl';
+BEGIN { push(@INC, ".."); };
+eval "use WebminCore;";
+if ($@) {
+        do '../web-lib.pl';
+        do '../ui-lib.pl';
+	}
 &init_config();
-do '../ui-lib.pl';
 &foreign_require("server-manager", "server-manager-lib.pl");
 
 # find_vm2_server(username|domain, password)
