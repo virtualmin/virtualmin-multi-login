@@ -11,3 +11,4 @@ login_efind=No Virtualmin user or domain was found
 login_edown=The Virtualmin system on which your domain is hosted is down
 login_ewrong=Your username or password is incorrect
 login_econnect=The Virtualmin system $1:$2 on which your domain is hosted could not be contacted
+__norefs=1
