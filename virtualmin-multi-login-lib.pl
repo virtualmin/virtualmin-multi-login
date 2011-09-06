@@ -34,5 +34,22 @@ foreach my $s (&server_manager::list_managed_servers()) {
 return @rv;
 }
 
+# match_domain_pass(&domain, password)
+# Return 1 if some plaintext password is valid for a domain
+sub match_domain_pass
+{
+local ($d, $pass) = @_;
+if ($d->{'pass'}) {
+	# Plaintext password is known
+	return $d->{'pass'} eq $pass;
+	}
+elsif ($d->{'enc_pass'}) {
+	# Check against encrypted password
+	&foreign_require("useradmin");
+	return &useradmin::validate_password($pass, $d->{'enc_pass'});
+	}
+return 0;
+}
+
 1;
 
