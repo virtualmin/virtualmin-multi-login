@@ -1,0 +1,13 @@
+__norefs=1
+index_header=Virtualmin login details
+index_ok=Login
+index_pass=Wachtwoord
+index_title=Virtualmin Login
+index_user=Gebruikersnaam of domein
+login_econnect=Kon geen verbinding krijgen met Virtualmin systeem $1:$2 waarop uw domein word gehost.
+login_edown=Het Virtualmin systeem waarop uw domein word gehost staat uit.
+login_efind=Er is geen Virtualmin gebruiker of domein gevonden
+login_epass=Geen Virtualmin wachtwoord ingevuld
+login_euser=Geen Virtualmin gebruikersnaam of domein ingevuld
+login_euser2=De gebruikersnaam of domein naam mogen geen spaties bevatten.
+login_ewrong=Uw gebruikersnaam of wachtwoord is niet correct
