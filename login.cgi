@@ -30,8 +30,9 @@ if ($s->{'status'} eq 'down' || $s->{'status'} eq 'nossh' ||
 # Does the login work?
 my %miniserv;
 &get_miniserv_config(\%miniserv);
-$host = !$config{'hostname'} ? $d->{'dom'} :
+my $host = !$config{'hostname'} ? $d->{'dom'} :
 	!$s->{'host'} ? &get_system_hostname() : $s->{'host'};
+my ($out, $err);
 &http_download($host, $s->{'port'} || $miniserv{'port'}, "/", \$out, \$err,
 	       undef, $s->{'ssl'}, $d->{'user'}, $in{'pass'});
 if ($err =~ /401/) {
@@ -43,20 +44,20 @@ elsif ($err) {
 	}
 
 # Redirect the user to the correct machine
-$url = ($s->{'ssl'} ? "https://" : "http://").
+my $url = ($s->{'ssl'} ? "https://" : "http://").
        $host.
        ":".($s->{'port'} || $miniserv{'port'}).
        "/session_login.cgi?".
        "user=".&urlize($d->{'user'})."&".
        "pass=".&urlize($in{'pass'}).
        "&notestingcookie=1";
-$sec = $s->{'ssl'} ? "; secure" : "";
+my $sec = $s->{'ssl'} ? "; secure" : "";
 print "Set-Cookie: testing=1; domain=$host; path=/$sec\r\n";
 &redirect($url);
 
 sub error_redirect
 {
-local $ref = $ENV{'HTTP_REFERRER'};
+my $ref = $ENV{'HTTP_REFERRER'};
 $ref =~ s/\?.*$//;
 $ref ||= "index.cgi";
 &redirect($ref."?user=".&urlize($in{'user'})."&err=".&urlize($_[0]));
