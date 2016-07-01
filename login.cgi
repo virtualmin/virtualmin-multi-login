@@ -1,7 +1,10 @@
 #!/usr/local/bin/perl
 # Find the correct server, then redirect to it
+use strict;
+use warnings;
+our (%text, %in, %config);
 
-$trust_unknown_referers = 1;
+our $trust_unknown_referers = 1;
 require './virtualmin-multi-login-lib.pl';
 &ReadParse();
 
@@ -14,17 +17,18 @@ $in{'user'} =~ /^\S+$/ || &error_redirect($text{'login_euser2'});
 $in{'pass'} =~ /\S/ || &error_redirect($text{'login_epass'});
 
 # See if the user exists
-@matches = &find_vm2_server($in{'user'}, $in{'pass'});
+my @matches = &find_vm2_server($in{'user'}, $in{'pass'});
 @matches || &error_redirect($text{'login_efind'});
 
 # Is the server up?
-($s, $d) = @{$matches[0]};
+my ($s, $d) = @{$matches[0]};
 if ($s->{'status'} eq 'down' || $s->{'status'} eq 'nossh' ||
     $s->{'status'} eq 'nowebmin' || $s->{'status'} eq 'downwebmin') {
 	&error_redirect($text{'login_edown'});
 	}
 
 # Does the login work?
+my %miniserv;
 &get_miniserv_config(\%miniserv);
 $host = !$config{'hostname'} ? $d->{'dom'} :
 	!$s->{'host'} ? &get_system_hostname() : $s->{'host'};

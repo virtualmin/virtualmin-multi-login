@@ -1,4 +1,6 @@
 # Login functions
+use strict;
+use warnings;
 
 BEGIN { push(@INC, ".."); };
 eval "use WebminCore;";
@@ -10,10 +12,10 @@ eval "use WebminCore;";
 # for it. Return an array of 2-element array refs.
 sub find_vm2_server
 {
-local ($user, $pass) = @_;
-local @rv;
+my ($user, $pass) = @_;
+my @rv;
 foreach my $s (&server_manager::list_managed_servers()) {
-	local @doms = &server_manager::get_server_domains($s);
+	my @doms = &server_manager::get_server_domains($s);
 	foreach my $d (@doms) {
 		if (!$d->{'parent'} &&
 		    ($d->{'user'} eq $user || $d->{'dom'} eq $user ||
@@ -38,7 +40,7 @@ return @rv;
 # Return 1 if some plaintext password is valid for a domain
 sub match_domain_pass
 {
-local ($d, $pass) = @_;
+my ($d, $pass) = @_;
 if ($d->{'pass'}) {
 	# Plaintext password is known
 	return $d->{'pass'} eq $pass;
@@ -52,4 +54,3 @@ return 0;
 }
 
 1;
-

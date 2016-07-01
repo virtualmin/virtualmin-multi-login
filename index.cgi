@@ -1,5 +1,8 @@
 #!/usr/local/bin/perl
 # Just show a login form. In practice, this page is probably never used..
+use strict;
+use warnings;
+our (%text, %in, %config);
 
 require './virtualmin-multi-login-lib.pl';
 &popup_header($text{'index_title'});
@@ -26,4 +29,3 @@ print &ui_form_end([ [ undef, $text{'index_ok'} ] ]);
 print "</center>\n";
 
 &popup_footer();
-
