@@ -1,7 +1,7 @@
 desc=Virtualmin Login Redirector
 depends=1.411
 category=webmin
-version=1.4
+version=1.5
 depends=1.411
 feedback=jcameron@webmin.com
 desc_nl=Virtualmin Login Redirector
