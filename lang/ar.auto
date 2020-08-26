@@ -1,0 +1,12 @@
+index_title=Virtualmin تسجيل الدخول
+index_header=تفاصيل تسجيل الدخول إلى برنامج Virtualmin
+index_user=اسم المستخدم أو المجال
+index_pass=كلمه السر
+index_ok=تسجيل الدخول
+login_euser=لم يتم إدخال اسم مستخدم Virtualmin أو اسم المجال
+login_euser2=لا يمكن أن يحتوي اسم المستخدم أو اسم المجال على مسافات
+login_epass=لم يتم إدخال كلمة مرور Virtualmin
+login_efind=لم يتم العثور على مستخدم أو مجال Virtualmin
+login_edown=نظام Virtualmin الذي يتم استضافة مجالك عليه معطل
+login_ewrong=اسم المستخدم أو كلمة المرور غير صحيحة
+login_econnect=نظام Virtualmin $1:$2 الذي يستضيف المجال الخاص بك لا يمكن الاتصال به

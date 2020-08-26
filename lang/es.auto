@@ -1,0 +1,12 @@
+index_title=Inicio de sesión de Virtualmin
+index_header=Detalles de inicio de sesión de Virtualmin
+index_user=Nombre de usuario o dominio
+index_pass=Contraseña
+index_ok=Iniciar sesión
+login_euser=No se ingresó nombre de usuario o nombre de dominio de Virtualmin
+login_euser2=El nombre de usuario o nombre de dominio no puede contener espacios
+login_epass=No se ingresó ninguna contraseña de Virtualmin
+login_efind=No se encontró ningún usuario o dominio de Virtualmin
+login_edown=El sistema Virtualmin en el que está alojado su dominio no funciona
+login_ewrong=Su nombre de usuario o contraseña es incorrecta
+login_econnect=No se pudo establecer contacto con el sistema Virtualmin $1:$2 en el que está alojado su dominio

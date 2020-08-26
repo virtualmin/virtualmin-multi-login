@@ -1,0 +1,12 @@
+index_title=Connexion à Virtualmin
+index_header=Détails de connexion Virtualmin
+index_user=Nom d'utilisateur ou domaine
+index_pass=Mot de passe
+index_ok=S'identifier
+login_euser=Aucun nom d'utilisateur ou nom de domaine Virtualmin entré
+login_euser2=Le nom d'utilisateur ou le nom de domaine ne peut pas contenir d'espaces
+login_epass=Aucun mot de passe Virtualmin entré
+login_efind=Aucun utilisateur ou domaine Virtualmin n'a été trouvé
+login_edown=Le système Virtualmin sur lequel votre domaine est hébergé est en panne
+login_ewrong=Votre nom d'utilisateur ou votre mot de passe est incorrect
+login_econnect=Le système Virtualmin $1:$2 sur lequel votre domaine est hébergé n'a pas pu être contacté

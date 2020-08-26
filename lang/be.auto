@@ -1,0 +1,12 @@
+index_title=Уваход у Virtualmin
+index_header=Падрабязнасці для ўваходу ў Virtualmin
+index_user=Імя карыстальніка альбо дамен
+index_pass=Пароль
+index_ok=Увайсці
+login_euser=Няма імя карыстальніка Virtualmin і імя дамена
+login_euser2=Імя карыстальніка або даменнае імя не можа ўтрымліваць прабелы
+login_epass=Не ўведзены пароль Virtualmin
+login_efind=Не знойдзена ні аднаго карыстальніка, ні дамена Virtualmin
+login_edown=Сістэма Virtualmin, у якой размешчаны ваш дамен, не працуе
+login_ewrong=Ваша імя карыстальніка альбо пароль няправільныя
+login_econnect=З сістэмай Virtualmin $1:$2, на якой размешчаны ваш дамен, нельга было звязацца

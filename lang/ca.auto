@@ -1,0 +1,12 @@
+index_title=Inici de sessió Virtualmin
+index_header=Detalls d'inici de sessió de Virtualmin
+index_user=Nom d'usuari o domini
+index_pass=Contrasenya
+index_ok=iniciar Sessió
+login_euser=No s'ha introduït cap nom d'usuari ni nom de domini de Virtualmin
+login_euser2=El nom d'usuari o el nom de domini no poden contenir espais
+login_epass=No s'ha introduït la contrasenya de Virtualmin
+login_efind=No s'ha trobat cap usuari o domini de Virtualmin
+login_edown=El sistema Virtualmin on s’allotja el vostre domini està a la baixa
+login_ewrong=El vostre nom d’usuari o contrasenya és incorrecte
+login_econnect=No s'ha pogut contactar amb el sistema Virtualmin $1:$2 en el qual està allotjat el vostre domini

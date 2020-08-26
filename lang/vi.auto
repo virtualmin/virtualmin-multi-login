@@ -1,0 +1,12 @@
+index_title=Đăng nhập Virtualmin
+index_header=Chi tiết đăng nhập Virtualmin
+index_user=Tên người dùng hoặc miền
+index_pass=Mật khẩu
+index_ok=Đăng nhập
+login_euser=Không có tên miền hoặc tên miền Virtualmin được nhập
+login_euser2=Tên người dùng hoặc tên miền không được chứa khoảng trắng
+login_epass=Không có mật khẩu Virtualmin được nhập
+login_efind=Không tìm thấy người dùng hoặc miền Virtualmin nào
+login_edown=Hệ thống Virtualmin mà miền của bạn được lưu trữ trên đó bị ngừng hoạt động
+login_ewrong=Tên đăng nhập hoặc mật khẩu của bạn là không chính xác
+login_econnect=Không thể liên hệ với hệ thống Virtualmin $1:$2 mà miền của bạn được lưu trữ trên đó

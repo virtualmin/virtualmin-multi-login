@@ -1,0 +1,12 @@
+index_title=ورود مجازی
+index_header=جزئیات ورود به سیستم مجازی
+index_user=نام کاربری یا دامنه
+index_pass=کلمه عبور
+index_ok=وارد شدن
+login_euser=هیچ نام کاربری یا دامنه Virtualmin وارد نشده است
+login_euser2=نام کاربری یا نام دامنه نمی تواند دارای فاصله باشد
+login_epass=هیچ رمز ورود مجازی وارد نشده است
+login_efind=هیچ کاربر یا دامنه Virtualmin یافت نشد
+login_edown=سیستم Virtualmin که دامنه شما در آن میزبانی شده است ، خراب است
+login_ewrong=نام کاربری یا رمز عبور شما صحیح نیست
+login_econnect=سیستم Virtualmin $1:$2 که در آن دامنه شما میزبانی شده است امکان تماس با شما وجود ندارد

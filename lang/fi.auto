@@ -1,0 +1,12 @@
+index_title=Virtualmin Kirjaudu sisään
+index_header=Virtualmin kirjautumistiedot
+index_user=Käyttäjätunnus tai verkkotunnus
+index_pass=Salasana
+index_ok=Kirjaudu sisään
+login_euser=Virtualmin-käyttäjänimeä tai verkkotunnuksen nimeä ei ole annettu
+login_euser2=Käyttäjätunnus tai verkkotunnus ei voi sisältää välilyöntejä
+login_epass=Virtualmin-salasanaa ei ole annettu
+login_efind=Yhtään Virtualmin-käyttäjää tai verkkotunnusta ei löytynyt
+login_edown=Virtualmin-järjestelmä, jossa verkkotunnuksesi isännöi, ei ole käytössä
+login_ewrong=Käyttäjätunnuksesi tai salasanasi on väärä
+login_econnect=Virtualmin-järjestelmään $1:$2, johon verkkotunnuksesi isännöi, ei voitu ottaa yhteyttä

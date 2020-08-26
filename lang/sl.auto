@@ -1,0 +1,12 @@
+index_title=Virtualmin Prijava
+index_header=Podrobnosti za virtualno prijavo
+index_user=Uporabniško ime ali domena
+index_pass=Geslo
+index_ok=Vpiši se
+login_euser=Uporabniško ime ali ime domene Virtualmin ni vneseno
+login_euser2=Uporabniško ime ali ime domene ne sme vsebovati presledkov
+login_epass=Virtualmin geslo ni vneseno
+login_efind=Uporabnika ali domene Virtualmin ni bilo mogoče najti
+login_edown=Virtualmin sistem, v katerem gostuje vaša domena, ni v uporabi
+login_ewrong=Vaše uporabniško ime ali geslo ni pravilno
+login_econnect=Z Virtualmin sistemom $1:$2, na katerem gostuje vaša domena, ni bilo mogoče vzpostaviti stika

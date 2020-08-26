@@ -1,0 +1,12 @@
+index_title=Virtualmin Prihlásenie
+index_header=Prihlasovacie údaje Virtualmin
+index_user=Používateľské meno alebo doména
+index_pass=heslo
+index_ok=Prihlásiť sa
+login_euser=Neboli zadané žiadne používateľské meno alebo názov domény Virtualmin
+login_euser2=Používateľské meno alebo názov domény nemôžu obsahovať medzery
+login_epass=Nebolo zadané žiadne heslo Virtualmin
+login_efind=Nenašiel sa žiaden užívateľ alebo doména Virtualmin
+login_edown=Systém Virtualmin, na ktorom je hosťovaná vaša doména, je vypnutý
+login_ewrong=Vaše používateľské meno alebo heslo je nesprávne
+login_econnect=Systém Virtualmin $1:$2, na ktorom je hosťovaná vaša doména, sa nedal kontaktovať

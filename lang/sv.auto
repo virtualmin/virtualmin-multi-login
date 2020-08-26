@@ -1,0 +1,12 @@
+index_title=Virtualmin-inloggning
+index_header=Virtualmin inloggningsinformation
+index_user=Användarnamn eller domän
+index_pass=Lösenord
+index_ok=Logga in
+login_euser=Inget Virtualmin-användarnamn eller domännamn har angetts
+login_euser2=Användarnamnet eller domännamnet kan inte innehålla mellanslag
+login_epass=Inget Virtualmin-lösenord har angetts
+login_efind=Ingen Virtualmin-användare eller domän hittades
+login_edown=Virtualmin-systemet där din domän är värd är nere
+login_ewrong=Ditt användarnamn eller lösenord är felaktigt
+login_econnect=Virtualmin-systemet $1:$2 som din domän är värd för kunde inte kontaktas

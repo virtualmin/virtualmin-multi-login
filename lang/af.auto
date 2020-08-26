@@ -1,0 +1,12 @@
+index_title=Virtualmin-aanmelding
+index_header=Virtualmin-aanteken besonderhede
+index_user=Gebruikernaam of domein
+index_pass=Wagwoord
+index_ok=Teken aan
+login_euser=Geen Virtualmin-gebruikersnaam of domeinnaam is ingevoer nie
+login_euser2=Die gebruikersnaam of domeinnaam kan nie spasies bevat nie
+login_epass=Geen Virtualmin-wagwoord ingevoer nie
+login_efind=Geen Virtualmin-gebruiker of -domein is gevind nie
+login_edown=Die Virtualmin-stelsel waarop u domein gehuisves word, is af
+login_ewrong=U gebruikersnaam of wagwoord is verkeerd
+login_econnect=Die Virtualmin-stelsel $1:$2 waarop u domein gehuisves word, kon nie gekontak word nie

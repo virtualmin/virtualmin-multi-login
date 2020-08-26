@@ -1,0 +1,12 @@
+index_title=Log masuk Virtualmin
+index_header=Maklumat log masuk Virtualmin
+index_user=Nama pengguna atau domain
+index_pass=Kata Laluan
+index_ok=Log masuk
+login_euser=Tiada nama pengguna atau nama domain Virtualmin dimasukkan
+login_euser2=Nama pengguna atau nama domain tidak boleh mengandungi spasi
+login_epass=Tiada kata laluan Virtualmin dimasukkan
+login_efind=Tidak dijumpai pengguna atau domain Virtualmin
+login_edown=Sistem Virtualmin tempat domain anda dihoskan dimatikan
+login_ewrong=Nama pengguna atau kata laluan anda tidak betul
+login_econnect=Sistem Virtualmin $1:$2 tempat domain anda dihoskan tidak dapat dihubungi

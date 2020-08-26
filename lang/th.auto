@@ -1,0 +1,12 @@
+index_title=เข้าสู่ระบบ Virtualmin
+index_header=รายละเอียดการเข้าสู่ระบบ Virtualmin
+index_user=ชื่อผู้ใช้หรือโดเมน
+index_pass=รหัสผ่าน
+index_ok=เข้าสู่ระบบ
+login_euser=ไม่ได้ป้อนชื่อผู้ใช้ Virtualmin หรือชื่อโดเมน
+login_euser2=ชื่อผู้ใช้หรือชื่อโดเมนต้องไม่มีช่องว่าง
+login_epass=ไม่ได้ป้อนรหัสผ่าน Virtualmin
+login_efind=ไม่พบผู้ใช้หรือโดเมน Virtualmin
+login_edown=ระบบ Virtualmin ที่โดเมนของคุณโฮสต์อยู่หยุดทำงาน
+login_ewrong=ชื่อผู้ใช้หรือรหัสผ่านของคุณไม่ถูกต้อง
+login_econnect=ระบบ Virtualmin $1:$2 ที่โฮสต์โดเมนของคุณไม่สามารถติดต่อได้

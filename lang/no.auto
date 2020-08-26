@@ -1,0 +1,12 @@
+index_title=Virtualmin-pålogging
+index_header=Virtualmin påloggingsdetaljer
+index_user=Brukernavn eller domene
+index_pass=Passord
+index_ok=Logg Inn
+login_euser=Ingen Virtualmin brukernavn eller domenenavn lagt inn
+login_euser2=Brukernavnet eller domenenavnet kan ikke inneholde mellomrom
+login_epass=Ingen Virtualmin passord tastet inn
+login_efind=Ingen Virtualmin bruker eller domene ble funnet
+login_edown=Virtualmin-systemet som domenet ditt er vert på, er nede
+login_ewrong=Brukernavnet eller passordet ditt er feil
+login_econnect=Virtualmin-systemet $1:$2 som domenet ditt er vertskap for, kunne ikke kontaktes

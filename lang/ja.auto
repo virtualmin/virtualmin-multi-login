@@ -1,0 +1,12 @@
+index_title=Virtualminログイン
+index_header=Virtualminログインの詳細
+index_user=ユーザー名またはドメイン
+index_pass=パスワード
+index_ok=ログインする
+login_euser=Virtualminのユーザー名またはドメイン名が入力されていません
+login_euser2=ユーザー名またはドメイン名にスペースを含めることはできません
+login_epass=Virtualminパスワードが入力されていません
+login_efind=Virtualminユーザーまたはドメインが見つかりませんでした
+login_edown=ドメインがホストされているVirtualminシステムがダウンしている
+login_ewrong=ユーザー名またはパスワードが間違っています
+login_econnect=ドメインがホストされているVirtualminシステム $1:$2に接続できませんでした

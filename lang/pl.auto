@@ -1,0 +1,12 @@
+index_title=Logowanie do Virtualmin
+index_header=Dane logowania do Virtualmin
+index_user=Nazwa użytkownika lub domena
+index_pass=Hasło
+index_ok=Zaloguj sie
+login_euser=Nie wprowadzono nazwy użytkownika ani nazwy domeny Virtualmin
+login_euser2=Nazwa użytkownika lub nazwa domeny nie może zawierać spacji
+login_epass=Nie wprowadzono hasła Virtualmin
+login_efind=Nie znaleziono użytkownika ani domeny Virtualmin
+login_edown=System Virtualmin, w którym hostowana jest Twoja domena, nie działa
+login_ewrong=Twoja nazwa użytkownika lub hasło jest nieprawidłowe
+login_econnect=Nie można skontaktować się z systemem Virtualmin $1:$2, na którym jest hostowana Twoja domena

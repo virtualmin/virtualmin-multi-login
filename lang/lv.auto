@@ -1,0 +1,12 @@
+index_title=Virtualmin pieteikšanās
+index_header=Virtualmin pieteikšanās informācija
+index_user=Lietotājvārds vai domēns
+index_pass=Parole
+index_ok=Pieslēgties
+login_euser=Nav ievadīts Virtualmin lietotājvārds vai domēna vārds
+login_euser2=Lietotājvārdā vai domēna nosaukumā nedrīkst būt atstarpes
+login_epass=Nav ievadīta Virtualmin parole
+login_efind=Netika atrasts neviens Virtualmin lietotājs vai domēns
+login_edown=Virtuālā sistēma, kurā tiek mitināts jūsu domēns, nedarbojas
+login_ewrong=Jūsu lietotājvārds vai parole nav pareiza
+login_econnect=Nevarēja sazināties ar Virtualmin sistēmu $1:$2, kurā tiek mitināts jūsu domēns

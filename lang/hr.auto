@@ -1,0 +1,12 @@
+index_title=Virtualmin Prijava
+index_header=Pojedinosti o virtualnom prijavi
+index_user=Korisničko ime ili domena
+index_pass=Zaporka
+index_ok=Prijaviti se
+login_euser=Nema Virtualmin korisničkog imena ili imena domene
+login_euser2=Korisničko ime ili ime domene ne može sadržavati razmake
+login_epass=Virtualmin lozinka nije unesena
+login_efind=Nije pronađen korisnik ili domena Virtualmin-a
+login_edown=Virtualmin sustav na kojem se nalazi vaša domena je ugašen
+login_ewrong=Vaše korisničko ime ili lozinka nisu točni
+login_econnect=Virtualmin sustav $1:$2 na kojem se nalazi vaša domena nije se mogao kontaktirati

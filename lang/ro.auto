@@ -1,0 +1,12 @@
+index_title=Autentificare Virtualmin
+index_header=Detalii de autentificare Virtualmin
+index_user=Nume de utilizator sau domeniu
+index_pass=Parola
+index_ok=Autentificare
+login_euser=Nu a fost introdus niciun nume de utilizator Virtualmin sau nume de domeniu
+login_euser2=Numele de utilizator sau numele de domeniu nu pot conține spații
+login_epass=Nu a fost introdusă nicio parolă Virtualmin
+login_efind=Nu a fost găsit niciun utilizator sau domeniu Virtualmin
+login_edown=Sistemul Virtualmin pe care este găzduit domeniul dvs. este redus
+login_ewrong=Numele de utilizator sau parola dvs. sunt incorecte
+login_econnect=Nu a putut fi contactat sistemul Virtualmin $1:$2 pe care este găzduit domeniul dvs.

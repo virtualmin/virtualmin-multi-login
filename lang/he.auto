@@ -1,0 +1,12 @@
+index_title=כניסה ל- Virtualmin
+index_header=פרטי כניסה של Virtualmin
+index_user=שם משתמש או תחום
+index_pass=סיסמה
+index_ok=התחברות
+login_euser=לא הוזן שם משתמש או שם תחום של Virtualmin
+login_euser2=שם המשתמש או שם הדומיין אינם יכולים להכיל רווחים
+login_epass=לא הוזנה סיסמת Virtualmin
+login_efind=לא נמצא משתמש או תחום Virtualmin
+login_edown=מערכת Virtualmin בה מתארח הדומיין שלך מושבתת
+login_ewrong=שם המשתמש או הסיסמה שלך שגויים
+login_econnect=לא ניתן ליצור קשר עם מערכת Virtualmin $1:$2 שעליה מתארח הדומיין שלך

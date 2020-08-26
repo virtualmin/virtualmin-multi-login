@@ -1,0 +1,12 @@
+index_title=Virtualmin Login
+index_header=Anmeldedaten für Virtualmin
+index_user=Benutzername oder Domain
+index_pass=Passwort
+index_ok=Anmeldung
+login_euser=Es wurde kein Virtualmin-Benutzername oder Domainname eingegeben
+login_euser2=Der Benutzername oder Domainname darf keine Leerzeichen enthalten
+login_epass=Kein Virtualmin-Passwort eingegeben
+login_efind=Es wurde kein Virtualmin-Benutzer oder keine Domain gefunden
+login_edown=Das Virtualmin-System, auf dem Ihre Domain gehostet wird, ist ausgefallen
+login_ewrong=Ihr Benutzername oder Passwort ist falsch
+login_econnect=Das Virtualmin-System $1:$2, auf dem Ihre Domain gehostet wird, konnte nicht kontaktiert werden

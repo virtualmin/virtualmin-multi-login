@@ -1,0 +1,12 @@
+index_title=Virtualmin登錄
+index_header=Virtualmin登錄詳細信息
+index_user=用戶名或域
+index_pass=密碼
+index_ok=登錄
+login_euser=沒有輸入Virtualmin用戶名或域名
+login_euser2=用戶名或域名不能包含空格
+login_epass=沒有輸入Virtualmin密碼
+login_efind=找不到Virtualmin用戶或域
+login_edown=託管您的域的Virtualmin系統已關閉
+login_ewrong=您的用戶名或密碼不正確
+login_econnect=無法聯繫到託管您的域的Virtualmin系統 $1:$2

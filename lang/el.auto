@@ -1,0 +1,12 @@
+index_title=Είσοδος Virtualmin
+index_header=Στοιχεία σύνδεσης Virtualmin
+index_user=Όνομα χρήστη ή τομέα
+index_pass=Κωδικός πρόσβασης
+index_ok=Σύνδεση
+login_euser=Δεν έχει εισαχθεί όνομα χρήστη ή όνομα τομέα Virtualmin
+login_euser2=Το όνομα χρήστη ή το όνομα τομέα δεν μπορούν να περιέχουν κενά
+login_epass=Δεν έχει εισαχθεί κωδικός πρόσβασης Virtualmin
+login_efind=Δεν βρέθηκε χρήστης ή τομέας Virtualmin
+login_edown=Το σύστημα Virtualmin στο οποίο φιλοξενείται ο τομέας σας είναι εκτός λειτουργίας
+login_ewrong=Το όνομα χρήστη ή ο κωδικός πρόσβασης δεν είναι σωστά
+login_econnect=Δεν ήταν δυνατή η επικοινωνία με το σύστημα Virtualmin $1:$2 στο οποίο φιλοξενείται ο τομέας σας

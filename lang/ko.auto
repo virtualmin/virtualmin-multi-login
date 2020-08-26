@@ -1,0 +1,12 @@
+index_title=Virtualmin 로그인
+index_header=Virtualmin 로그인 세부 정보
+index_user=사용자 이름 또는 도메인
+index_pass=암호
+index_ok=로그인
+login_euser=Virtualmin 사용자 이름 또는 도메인 이름을 입력하지 않았습니다.
+login_euser2=사용자 이름 또는 도메인 이름은 공백을 포함 할 수 없습니다.
+login_epass=Virtualmin 비밀번호를 입력하지 않았습니다.
+login_efind=Virtualmin 사용자 또는 도메인이 없습니다.
+login_edown=도메인이 호스팅되는 Virtualmin 시스템이 다운되었습니다.
+login_ewrong=사용자 이름 또는 비밀번호가 올바르지 않습니다.
+login_econnect=도메인이 호스팅되는 Virtualmin 시스템 $1:$2 에 연결할 수 없습니다.

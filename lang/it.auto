@@ -1,0 +1,12 @@
+index_title=Accesso a Virtualmin
+index_header=Dettagli di accesso a Virtualmin
+index_user=Nome utente o dominio
+index_pass=Parola d'ordine
+index_ok=Accesso
+login_euser=Nessun nome utente o nome di dominio Virtualmin inserito
+login_euser2=Il nome utente o il nome di dominio non possono contenere spazi
+login_epass=Nessuna password Virtualmin inserita
+login_efind=Nessun utente o dominio Virtualmin trovato
+login_edown=Il sistema Virtualmin su cui è ospitato il tuo dominio è inattivo
+login_ewrong=Il nome utente o la password sono errati
+login_econnect=Non è stato possibile contattare il sistema Virtualmin $1:$2 su cui è ospitato il tuo dominio

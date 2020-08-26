@@ -1,0 +1,12 @@
+index_title=Idħol Virtualmin
+index_header=Dettalji tal-login tal-Virtualmin
+index_user=Username jew dominju
+index_pass=Password
+index_ok=Idħol
+login_euser=L-ebda isem tal-utent jew isem tad-dominju Virtualmin ma ġie mdaħħal
+login_euser2=L-isem tal-utent jew l-isem tad-dominju ma jistax ikun fihom spazji
+login_epass=L-ebda password ta 'Virtualmin ma ddaħħlet
+login_efind=L-ebda utent jew dominju ta 'Virtualmin ma nstab
+login_edown=Is-sistema Virtualmin li fiha d-dominju tiegħek huwa ospitat qed tinżel
+login_ewrong=Il-username jew il-password tiegħek mhumiex korretti
+login_econnect=Is-sistema Virtualmin $1:$2 li fiha d-dominju tiegħek huwa ospitat ma setgħetx tiġi kkuntattjata

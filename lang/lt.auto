@@ -1,0 +1,12 @@
+index_title=„Virtualmin“ prisijungimas
+index_header=„Virtualmin“ prisijungimo duomenys
+index_user=Vartotojo vardas arba domenas
+index_pass=Slaptažodis
+index_ok=Prisijungti
+login_euser=Neįvestas „Virtualmin“ vartotojo vardas ar domeno vardas
+login_euser2=Vartotojo varde ar domeno pavadinime negali būti tarpų
+login_epass=Neįvestas „Virtualmin“ slaptažodis
+login_efind=Nerastas „Virtualmin“ vartotojas ar domenas
+login_edown=„Virtualmin“ sistema, kurioje priglobtas jūsų domenas, neveikia
+login_ewrong=Jūsų neteisingas vartotojo vardas arba slaptažodis
+login_econnect=Nepavyko susisiekti su „Virtualmin“ sistema $1:$2, kurioje yra priglobtas jūsų domenas

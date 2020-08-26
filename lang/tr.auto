@@ -1,0 +1,12 @@
+index_title=Virtualmin Giriş
+index_header=Virtualmin oturum açma ayrıntıları
+index_user=Kullanıcı adı veya alan adı
+index_pass=Parola
+index_ok=Oturum aç
+login_euser=Virtualmin kullanıcı adı veya alan adı girilmedi
+login_euser2=Kullanıcı adı veya alan adı boşluk içeremez
+login_epass=Virtualmin şifresi girilmedi
+login_efind=Virtualmin kullanıcısı veya etki alanı bulunamadı
+login_edown=Etki alanınızın barındırıldığı Virtualmin sistemi çalışmıyor
+login_ewrong=Kullanıcı adınız veya şifreniz hatalı
+login_econnect=Etki alanınızın barındırıldığı Virtualmin sistemi $1:$2 ile iletişim kurulamadı

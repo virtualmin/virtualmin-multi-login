@@ -1,0 +1,12 @@
+index_title=Virtualmin Bejelentkezés
+index_header=A Virtualmin bejelentkezési adatai
+index_user=Felhasználónév vagy domain
+index_pass=Jelszó
+index_ok=Belépés
+login_euser=Nincs megadva Virtualmin felhasználónév vagy domain név
+login_euser2=A felhasználónév vagy domain név nem tartalmazhat szóközt
+login_epass=Nincs megadva Virtualmin jelszó
+login_efind=Nem található virtuális felhasználó vagy domain
+login_edown=A virtuális rendszer, amelyen a domain üzemelteti, nem működik
+login_ewrong=A felhasználóneve vagy jelszava helytelen
+login_econnect=A (z) $1:$2 virtuális rendszerrel nem sikerült kapcsolatba lépni a domainjével

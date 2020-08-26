@@ -1,0 +1,12 @@
+index_title=Virtualmin saioa
+index_header=Virtualmin saioaren xehetasunak
+index_user=Erabiltzaile izena edo domeinua
+index_pass=Pasahitza
+index_ok=Saioa hasi
+login_euser=Ez da Virtualmin erabiltzaile izenik edo domeinurik sartu
+login_euser2=Erabiltzaile-izenak edo domeinu izenak ezin dute espaziorik izan
+login_epass=Ez da Virtualmin pasahitzik sartu
+login_efind=Ez da Virtualmin erabiltzaile edo domeinurik aurkitu
+login_edown=Zure domeinua ostatu duen Virtualmin sistema desagertuta dago
+login_ewrong=Erabiltzaile-izena edo pasahitza okerra da
+login_econnect=Ezin izan da harremanetan zure domeinua ostatatzen duen Virtualmin sistema $1:$2 
