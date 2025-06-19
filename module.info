@@ -3,3 +3,4 @@ category=webmin
 version=1.7
 depends=1.950
 feedback=jcameron@webmin.com
+depends=server-manager
